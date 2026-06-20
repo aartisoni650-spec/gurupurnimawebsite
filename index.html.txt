@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guru Purnima Wishes For Shreyu Didu</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    overflow-x:hidden;
+    background:linear-gradient(135deg,#FFF8E7,#FDEBD0,#F9E79F);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+.main-card{
+    background:white;
+    padding:40px 25px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+    position:relative;
+    z-index:2;
+}
+
+.lamp{
+    font-size:55px;
+    animation:float 2s ease-in-out infinite;
+}
+
+h1{
+    color:#D35400;
+    margin-top:10px;
+    font-size:3rem;
+}
+
+h2{
+    color:#AF601A;
+    margin:15px 0;
+}
+
+.message{
+    color:#555;
+    line-height:1.9;
+    font-size:1.1rem;
+    margin:15px 0;
+}
+
+.note{
+    margin-top:20px;
+    color:#8E44AD;
+    font-style:italic;
+    font-size:1rem;
+}
+
+.signature{
+    margin-top:25px;
+    color:#E67E22;
+    font-weight:700;
+    font-size:1.2rem;
+}
+
+/* Flip Card */
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.guru-card{
+    width:340px;
+    height:450px;
+    position:relative;
+    transform-style:preserve-3d;
+    transition:1s;
+    cursor:pointer;
+}
+
+.guru-card:hover{
+    transform:rotateY(180deg);
+}
+
+.card-front,
+.card-inside{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    backface-visibility:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    padding:25px;
+}
+
+.card-front{
+    background:linear-gradient(135deg,#F9E79F,#F5B041);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#8E4400;
+}
+
+.card-front h3{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.card-inside{
+    background:white;
+    transform:rotateY(180deg);
+    overflow:auto;
+    color:#555;
+}
+
+.card-inside h3{
+    color:#D35400;
+    margin-bottom:15px;
+}
+
+.card-inside p{
+    line-height:1.8;
+    margin-bottom:12px;
+}
+
+/* Falling Flowers */
+
+.flower{
+    position:fixed;
+    top:-20px;
+    font-size:24px;
+    animation:fall linear infinite;
+    z-index:1;
+}
+
+.flower:nth-child(1){left:10%;animation-duration:8s;}
+.flower:nth-child(2){left:30%;animation-duration:10s;}
+.flower:nth-child(3){left:50%;animation-duration:7s;}
+.flower:nth-child(4){left:70%;animation-duration:9s;}
+.flower:nth-child(5){left:90%;animation-duration:11s;}
+
+@keyframes fall{
+    to{
+        transform:translateY(110vh) rotate(360deg);
+    }
+}
+
+@keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-10px);}
+}
+
+@media(max-width:600px){
+
+    h1{
+        font-size:2.2rem;
+    }
+
+    .guru-card{
+        width:300px;
+        height:480px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="flower">🌸</div>
+<div class="flower">🌺</div>
+<div class="flower">🌸</div>
+<div class="flower">🌺</div>
+<div class="flower">🌸</div>
+
+<div class="container">
+
+<div class="main-card">
+
+<div class="lamp">🪔</div>
+
+<h1>Happy Guru Purnima</h1>
+
+<h2>Dear Shreyu Didu ❤️</h2>
+
+<p class="message">
+On this sacred occasion of Guru Purnima, I want to express my heartfelt gratitude to you.
+Your kindness, positivity and encouragement inspire me every day.
+Thank you for being such a beautiful guiding light in my life.
+</p>
+
+<p class="message">
+Though I met you through dance, you have taught me lessons that go far beyond it.
+Your passion, dedication and beautiful spirit continue to inspire me every day.
+</p>
+
+<div class="note">
+"Through dance, I found a teacher, a friend & my everything. Through your kindness, I found an inspiration." ❤️
+</div>
+
+<div class="card-container">
+
+<div class="guru-card">
+
+<div class="card-front">
+<h3>🌸 Guru Purnima 🌸</h3>
+<p>For My Dearest</p>
+<h2>Shreyu Didu ❤️</h2>
+<p>Hover / Tap To Open</p>
+</div>
+
+<div class="card-inside">
+
+<h3>Dear Shreyu Didu ❤️</h3>
+
+<p>
+On this Guru Purnima, I want to thank you for being a source of inspiration,
+guidance and positivity in my life.
+</p>
+
+<p>
+Though I met you through dance, you have taught me lessons that go far beyond it.
+Your passion, dedication, kindness and beautiful spirit inspire me every day.
+</p>
+
+<p>
+A guru is not only someone who teaches a skill; a guru is someone who motivates,
+encourages and helps us grow. For me, you are that special person.
+</p>
+
+<p>
+Thank you for all the inspiration, warmth, and happiness you bring into my life.
+May you always be blessed with endless joy, success, good health and beautiful moments.
+</p>
+
+<h3>Happy Guru Purnima 🌸✨</h3>
+
+<p style="font-weight:bold;color:#E67E22;">
+With Lots of Love ❤️<br>
+Aarti
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="signature">
+Forever Grateful 🌸❤️
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
